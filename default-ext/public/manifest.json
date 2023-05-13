@@ -1,6 +1,6 @@
 {
   "name": "Hello Extensions",
-  "description" : "Base Level Extension",
+  "description": "Base Level Extension",
   "version": "1.0",
   "manifest_version": 2,
   "browser_action": {
@@ -11,25 +11,5 @@
     "16": "logo192.png",
     "48": "logo192.png",
     "128": "logo192.png"
-  },
-  "background": {
-    "scripts": [
-      "./static/js/background.js"
-    ],
-    "persistent": false
-  },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["./static/js/content.js"],
-      "all_frames": false,
-      "run_at": "document_end"
-    }
-  ],
-  "permissions": [
-    "activeTab"
-  ],
-  "optional_permissions": [
-    "<all_urls>"
-  ]
+  }
 }
