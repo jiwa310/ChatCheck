@@ -1,1 +1,2 @@
-# Rizz-Eval
+# OpenAI API Quickstart - Python example app
+
