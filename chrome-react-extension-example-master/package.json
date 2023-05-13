@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "INLINE_RUNTIME_CHUNK=false craco build",
+    "build": "craco build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -43,7 +43,7 @@
     ]
   },
   "devDependencies": {
-    "@types/chrome": "^0.0.126",
+    "@types/chrome": "^0.0.235",
     "@types/react-router-dom": "^5.1.6"
   }
 }
