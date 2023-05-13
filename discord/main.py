@@ -9,6 +9,6 @@ def get_messages(channel_id):
     jsonn = json.loads(r.text)
 
     for value in jsonn:
-        print(value['content'], '\n')
+        print(value, '\n')
 
 get_messages('1105630255470870588')
