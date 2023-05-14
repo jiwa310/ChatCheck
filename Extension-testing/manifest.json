@@ -16,7 +16,7 @@
   "web_accessible_resources": [
     {
         "resources": ["images/brilliant_32x.png"],
-        "matches": ["<all_urls>"]
+        "matches": ["*://*.discord.com/*"]
     }
   ]
 }
