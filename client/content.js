@@ -1,12 +1,12 @@
 let timeoutId;
 let observer;
 
-const axios = require('axios');
+// const axios = require('axios');
 
-async function generateResponse(prompt) {
-  const response = await axios.post('http://localhost:5000/api/generate', { prompt });
-  return response.data.data;
-}
+// async function generateResponse(prompt) {
+//   const response = await axios.post('http://localhost:5000/api/generate', { prompt });
+//   return response.data.data;
+// }
 
 
 
@@ -41,9 +41,9 @@ function startObserving() {
                 timeoutId = setTimeout(() => {
                     console.log('parentSpan content:', parentSpan.textContent);
                     //SCOTT WROTE THIS-----------------------------------------------------
-                    generateResponse(parentSpan.textContent)
-                        .then(response => console.log(response))
-                        .catch(error => console.error(error));
+                    // generateResponse(parentSpan.textContent)
+                    //     .then(response => console.log(response))
+                    //     .catch(error => console.error(error));
                     //SCOTT WROTE THIS-----------------------------------------------------
                     //sendRequest(parentSpan.textContent); // Send the request to the server
 
@@ -75,4 +75,4 @@ setTimeout(() => {
     let textBox = document.querySelector('div[role="textbox"].markup-eYLPri');
     textBox.addEventListener('keydown', handleKeydown);
        
-}, 10000); //Load times vary by compputer, temporary fix for now, create onload funciton later.
+}, 10000); //Load times vary by computer, temporary fix for now, create onload funciton later.
