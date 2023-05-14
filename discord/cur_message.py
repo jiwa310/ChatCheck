@@ -29,4 +29,4 @@ async def on_message(message):
         print(f'{message.author.name} ({message.author.id}) sent a message: {message.content}')
         await channel.send(f'Hello {message.author.name}!')
 
-client.run('MTEwNzA3MjY0NDYwNTU1MDcxMg.GLEgtJ.yQRdxx9tVd6NAIXk5TtNkgp3wSugfU8chuBiv0')
+client.run('MTEwNzA3MjY0NDYwNTU1MDcxMg.GxsIa2.cIXxhrx-Fndlud5qG3O2qlmLe2CTLgIhhy24Ak')
