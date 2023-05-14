@@ -15,7 +15,21 @@
   ],
   "web_accessible_resources": [
     {
-        "resources": ["images/brilliant_32x.png"],
+      "resources": [
+        "images/brilliant_32x.png",
+        "images/best_32x.png",
+        "images/blunder_32x.png",
+        "images/correct_32x.png",
+        "images/incorrect_32x.png",
+        "images/mistake_32x.png",
+        "images/inaccuracy_32x.png",
+        "images/great_find_32x.png",
+        "images/good_32x.png",
+        "images/heart.png",
+        "images/excellent_32x.png"
+
+
+    ], 
         "matches": ["*://*.discord.com/*"]
     }
   ]
