@@ -39,6 +39,7 @@ function handleKeydown(event) {
     }
 }
 
+<<<<<<< HEAD
 // setTimeout(() => {
 //     console.log('This message will be logged after a delay of 3 seconds');
 //     console.log('This is a content script!');
@@ -46,3 +47,12 @@ function handleKeydown(event) {
 //     let textBox = document.querySelector('div[role="textbox"].markup-eYLPri');
 //     textBox.addEventListener('keydown', handleKeydown);
 // }, 3000);
+=======
+setTimeout(() => {
+    console.log('This message will be logged after a delay of 3 seconds');
+    console.log('This is a content script!');
+    startObserving();
+    let textBox = document.querySelector('div[role="textbox"].markup-eYLPri');
+    textBox.addEventListener('keydown', handleKeydown);
+}, 3000);
+>>>>>>> 528bc015d05cc152d2fc2b2c7d9ecbe8dcf34da4
