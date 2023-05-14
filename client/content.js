@@ -74,4 +74,5 @@ setTimeout(() => {
     startObserving();
     let textBox = document.querySelector('div[role="textbox"].markup-eYLPri');
     textBox.addEventListener('keydown', handleKeydown);
-}, 3000);
+       
+}, 10000); //Load times vary by compputer, temporary fix for now, create onload funciton later.
