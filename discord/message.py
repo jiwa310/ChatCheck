@@ -3,12 +3,12 @@ import json
 
 def get_messages(channel_id):
     headers = {
-        'authorization': 'MjcyNTMzMDE1Njg1NDk2ODMy.Ge8OqF.HyB0aHQCbbdSDdPr5xvOUSDtUwTClya1JOyYmk'
+        'authorization': 'MjcyNTMzMDE1Njg1NDk2ODMy.GtzP6D.WLgyvT1WJ-FeloUbmezqoY1ZlmwI49cpFyonEI'
     }
     r = requests.get(f'https://discord.com/api/v9/channels/{channel_id}/messages', headers=headers)
     jsonn = json.loads(r.text)
 
     for value in jsonn:
-        print(value, '\n')
+        print(value['content'], '\n')
 
-get_messages('1105630255470870588')
+get_messages('1106665200955957278')
