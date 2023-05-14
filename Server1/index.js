@@ -38,7 +38,7 @@ function generatePrompt(animal) {
   const capitalizedAnimal =
     animal[0].toUpperCase() + animal.slice(1).toLowerCase();
   return `I am messaging this person on a dating app. Rate how good my messages are on a scale of 1-10. If below a 5/10, give 
-me an example of a good line.
+me an example of a good line. Please always follow the exact format of the examples below, starting with the integer rating then suggestions.
 
 Me: Hey, how are you?
 Rating: 5/10. Safe choice, but a little boring.

@@ -39,7 +39,7 @@ function startObserving() {
             rectangle.textContent = 'Placeholder text';
                 rectangle.style.cssText = `
                     background-color: white;
-                    border: 1px solid black;
+                    border: 3px light blue solid;
                     border-radius: 5px;
                     padding: 5px;
                     color: black;`;
