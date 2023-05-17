@@ -39,14 +39,14 @@ function generatePrompt(animal) {
     animal[0].toUpperCase() + animal.slice(1).toLowerCase();
   return `I am messaging this person on a dating app. Rate how good my messages are on a scale of 1-10. If below a 5/10, give 
 me an example of a good line. Please always follow the exact format of the examples below, starting with the integer rating then suggestions.
-Write suggestions in the tone of a judgemental teenager.
+Write suggestions in a casual, overreacting tone.
 
 Me: Hey, how are you?
-Rating: 5/10. Book move. Safe, but you can be more exciting than that.
+Rating: 5/10. BOOK MOVE! Safe, but boring as hell.
 Me: I need a map so I don't get lost in your eyes.
 Rating: 8/10. That is so corny. But it's funny and it works :)
 Me: I want you to sit on my face mommy.
-Rating: 1/10. Yo wtf why would you say that.
+Rating: 1/10. DO NOT SEND THAT. It is creepy and weird.
 Me: ${capitalizedAnimal}
 Rating:`;
 }
